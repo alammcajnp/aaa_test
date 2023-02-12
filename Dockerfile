@@ -19,4 +19,4 @@ EXPOSE 3001
 #00
 #CMD [ "pm2-runtime", "run dist/main.js -- watch" ]
 #99
-#CMD [ "pm2-runtime", "npm start dist/main.js -- watch" ]
+CMD [ "pm2-runtime", "npm start dist/main.js -- watch" ]
