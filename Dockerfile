@@ -6,7 +6,7 @@ COPY package.json package.json
 COPY package-lock.json package-lock.json 
 RUN npm install
 RUN npm install pm2 -g
-Run npm run build
+RUN npm run build
 COPY ./dist ./dist
 
 EXPOSE 3001
