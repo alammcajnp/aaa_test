@@ -21,7 +21,7 @@ export class CustomerController {
   // Retrieve customers list
   @Get('/get')
   async get_data(@Res() res) {
-    return res.status(HttpStatus.OK).json('Test12');
+    return res.status(HttpStatus.OK).json('Test123456');
   }
 
   // add a customer
